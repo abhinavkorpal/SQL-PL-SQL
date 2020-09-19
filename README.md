@@ -11,3 +11,8 @@ Syntax:
 Synatx: 
         INSERT INTO tablename(columnname, columnname) VALUES (expression, expression);
 ```
+#### VIEWING DATA IN THE TABLES
+```
+Syntax:
+        SELECT (columname1... ...columname n) FROM tablename;
+```
