@@ -28,7 +28,15 @@ Synatx:
         INSERT INTO tablename(columnname, columnname) VALUES (expression, expression);
 ```
 #### VIEWING DATA IN THE TABLES
+
+All Rows and All Column:
+
+To View Global Table Data the syntax is:
+
+Global data extract:
 ```
-Syntax:
+I) Syntax:
         SELECT (columname1... ...columname n) FROM tablename;
+II) Syntax:
+        SELECT * FROM tablename;
 ```
