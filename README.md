@@ -51,5 +51,15 @@ Selected Columns and All Rows:
 Syntax: 
         SELECT columname, columname FROM tablename;
 ```
+Selected rows and all columnns
+```
+Syntax: 
+        
+```
+Selected columns and Selected rows
+```
+Syntax: 
+        
+```
 
 
