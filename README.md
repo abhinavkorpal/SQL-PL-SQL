@@ -40,7 +40,7 @@ I) Syntax:
 II) Syntax:
         SELECT * FROM tablename;
 ```
-#### Filtering Table Data:
+#### FILTERING TABLE DATA:
 way of filtering table data will be:
 - Selected columns and all rows
 - Selected rows and all columnns
