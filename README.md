@@ -54,11 +54,12 @@ Syntax:
 Selected rows and all columnns
 ```
 Syntax: 
-        
+        SELECT * FROM tablename WHERE search condition;
 ```
 Selected columns and Selected rows
 ```
-Syntax: 
+Syntax:
+        SELECT columname, columnname FROM tablename WHERE search condition;
         
 ```
 
