@@ -1,5 +1,14 @@
 # SQL-PL-SQL
 
+![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
+## Working with the Oracle Engine
+
+![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_client_oracle_engine.png)
+## Interaction between Oracle Clients - Oracle Engine and the server hard disk drive with data on it.
+
+![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_tool_oracle_engine.png)
+## Various Oracle tools connected to the oracle engine
+
 #### SQL used for
 
 - SQL can create and maintain data manipulation objects such as tables, views, sequences etc.
