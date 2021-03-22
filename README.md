@@ -1,4 +1,16 @@
-# SQL-PL-SQL
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">SQL-PL-SQL ✨</h1>
+
+  <p align="center">
+    <br />
+    ·
+    <a href="https://github.com/abhinavkorpal/SQL-PL-SQL/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/abhinavkorpal/SQL-PL-SQL/issues">Request Feature</a>
+  </p>
+</p>
 
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
 ## Working with the Oracle Engine
