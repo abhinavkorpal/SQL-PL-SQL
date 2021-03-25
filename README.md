@@ -86,6 +86,20 @@ Syntax:
 
 #### SQL Performance Tuning
 
+###### SEQUENCES
+```
+Syntax:
+      CREATE SEQUENCES sequence_name 
+      [INCREMENT BY integervalue 
+      START WITH integervalue 
+      MAXVALUE integervalue / NOMAXVALUE integervalue 
+      MINVALUE integervalue             
+      NOMINVALUE integervalue 
+      CYCLE / NOCYCLE CACHE integervalue / NOCACHE 
+      ORDER / NOORDER ]
+```
+
+
 
 
 
