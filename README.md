@@ -96,7 +96,7 @@ Syntax:
       MINVALUE integervalue             
       NOMINVALUE integervalue 
       CYCLE / NOCYCLE CACHE integervalue / NOCACHE 
-      ORDER / NOORDER ]
+      ORDER / NOORDER]
 ```
 
 
