@@ -86,6 +86,14 @@ Syntax:
 
 #### SQL Performance Tuning
 
+###### USING ROWNUM IN SQL STATEMENTS
+```
+Syntax: 
+      SELECT ROWNUM, client_no, name
+      FROM client_master
+      WHERE ROWNUM < 8;
+```
+
 ###### SEQUENCES
 ```
 Syntax:
