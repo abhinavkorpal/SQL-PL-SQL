@@ -98,7 +98,11 @@ Syntax:
       ORDER / NOORDER]
 ```
 
-#### 
+###### Dropping A Sequence
+```
+Syntax: 
+       DROP SEQUENCE sequence_name;
+```
 
 
 
