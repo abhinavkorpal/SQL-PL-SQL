@@ -112,6 +112,8 @@ Syntax:
        DROP SEQUENCE sequence_name;
 ```
 
+######
+
 
 
 
