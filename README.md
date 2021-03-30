@@ -112,7 +112,18 @@ Syntax:
        DROP SEQUENCE sequence_name;
 ```
 
-######
+#### Security Management Using SQL
+
+###### Granting Privileges using the Grant statement
+```
+Syntax: 
+        GRANT {object privilges}
+        ON objectname
+        TO username
+        [WITH GRANT OPTION];
+```
+
+
 
 
 
