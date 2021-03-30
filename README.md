@@ -117,7 +117,7 @@ Syntax:
 ###### Granting Privileges using the Grant statement
 ```
 Syntax: 
-        GRANT {object privilges}
+        GRANT {object privileges}
         ON objectname
         TO username
         [WITH GRANT OPTION];
