@@ -122,6 +122,10 @@ Syntax:
         TO username
         [WITH GRANT OPTION];
 ```
+```
+Synatx: 
+```
+
 
 
 
