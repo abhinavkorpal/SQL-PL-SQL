@@ -122,11 +122,12 @@ Syntax:
         TO username
         [WITH GRANT OPTION];
 ```
+###### Revoking permissions using the REVOKE statement
 ```
 Synatx: 
-```
-```
-Synatx: 
+       REVOKE { object privileges }
+       ON objectname
+       FROM username;
 ```
 
 
