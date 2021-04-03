@@ -130,6 +130,10 @@ Synatx:
        FROM username;
 ```
 
+##### PL/SQL
+
+
+
 
 
 
