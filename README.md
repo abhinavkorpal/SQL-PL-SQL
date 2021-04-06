@@ -132,6 +132,8 @@ Synatx:
 
 #### PL/SQL
 
+#### SQL*PLUS
+
 
 
 
