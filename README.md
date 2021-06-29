@@ -38,13 +38,15 @@
 - SQL sentences that are used to control the behavior of these objects are called **DCl's** or **Data Control Language.**
 
 #### THE CREATE TABLE COMMAND:
-```
+
+```shell
 Syntax:
         CREATE TABLE tablename(columnname datatype(size), columnname datatype(size));
 ```        
         
 #### INSERTION OF DATA INTO TABLES
-```
+
+```shell
 Synatx: 
         INSERT INTO tablename(columnname, columnname) VALUES (expression, expression);
 ```
@@ -55,30 +57,37 @@ All Rows and All Column:
 To View Global Table Data the syntax is:
 
 Global data extract:
-```
+
+```shell
 I) Syntax:
         SELECT (columname1... ...columname n) FROM tablename;
 II) Syntax:
         SELECT * FROM tablename;
 ```
+
 #### FILTERING TABLE DATA:
+
 way of filtering table data will be:
 - Selected columns and all rows
 - Selected rows and all columnns
 - Selected columns and Selected rows
 
 Selected Columns and All Rows:
-```
+
+```shell
 Syntax: 
         SELECT columname, columname FROM tablename;
 ```
-Selected rows and all columnns
-```
+
+Selected rows and all columnns:
+
+```shell
 Syntax: 
         SELECT * FROM tablename WHERE search condition;
 ```
-Selected columns and Selected rows
-```
+Selected Columns and Selected Rows:
+
+```shell
 Syntax:
         SELECT columname, columnname FROM tablename WHERE search condition;
         
@@ -87,7 +96,8 @@ Syntax:
 #### SQL Performance Tuning
 
 ###### USING ROWNUM IN SQL STATEMENTS
-```
+
+```shell
 Syntax: 
       SELECT ROWNUM, client_no, name
       FROM client_master
@@ -95,7 +105,8 @@ Syntax:
 ```
 
 ###### SEQUENCES
-```
+
+```shell
 Syntax:
       CREATE SEQUENCES sequence_name 
       [INCREMENT BY integervalue 
@@ -107,7 +118,8 @@ Syntax:
 ```
 
 ###### Dropping A Sequence
-```
+
+```shell
 Syntax: 
        DROP SEQUENCE sequence_name;
 ```
@@ -115,7 +127,8 @@ Syntax:
 #### Security Management Using SQL
 
 ###### Granting Privileges using the Grant statement
-```
+
+```shell
 Syntax: 
         GRANT {object privileges}
         ON objectname
@@ -123,7 +136,8 @@ Syntax:
         [WITH GRANT OPTION];
 ```
 ###### Revoking permissions using the REVOKE statement
-```
+
+```shell
 Synatx: 
        REVOKE { object privileges }
        ON objectname
