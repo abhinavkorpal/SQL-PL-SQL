@@ -218,7 +218,13 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
 ```sql
 Syntax:
         CREATE TABLE tablename(columnname datatype(size), columnname datatype(size));
-```        
+```
+
+Column Name | Data Type | Size
+------------ | ------------- | -------------
+client_no | varchar2 | 0 | 6
+name | varchar2 | 20
+100206 | Bobby Frank | 30
         
 #### INSERTION OF DATA INTO TABLES
 
@@ -226,6 +232,7 @@ Syntax:
 Synatx: 
         INSERT INTO tablename(columnname, columnname) VALUES (expression, expression);
 ```
+
 #### VIEWING DATA IN THE TABLES
 
 All Rows and All Column:
