@@ -224,7 +224,6 @@ CREATE TABLE syntax, the SQL statement starts with 'CREATE' i.e. a verb, followe
   
 **Example:** ***Create a client_master table who structure is***:
 
-```sql
 Column Name | Data Type | Size
 ------------ | ------------- | -------------
 client_no | varchar2 | 6
@@ -236,7 +235,8 @@ state | varchar2 | 15
 pincode | number | 6
 remarks | varchar2 | 60
 bal_due | number | 10,2
-  
+
+```sql
 CREATE TABLE client_master (client_no varchar2(20), name varchar2(30), address1 varchar2(30), 
   address2 varchar2(30), city varchar2(15), state varchar2(15), 
   pincode number(6), remarks varchar2(60), bal_due number(10,2));
