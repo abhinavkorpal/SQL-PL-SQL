@@ -223,7 +223,7 @@ Syntax:
 CREATE TABLE syntax, the SQL statement starts with 'CREATE' i.e. a verb, followed by 'TABLE' i.e. a noun and '<tablename>' i.e. adjective.
 
 ```sql
-Example: Create a client_master table who structure is:
+**Example:** Create a client_master table who structure is:
 
 Column Name | Data Type | Size
 ------------ | ------------- | -------------
