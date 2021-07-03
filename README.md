@@ -220,11 +220,27 @@ Syntax:
         CREATE TABLE tablename(columnname datatype(size), columnname datatype(size));
 ```
 
+CREATE TABLE syntax, the SQL statement starts with 'CREATE' i.e. a verb, followed by 'TABLE' i.e. a noun and '<tablename>' i.e. adjective.
+
+```sql
+Example: Create a client_master table who structure is:
+
 Column Name | Data Type | Size
 ------------ | ------------- | -------------
-client_no | varchar2 | 0 | 6
+client_no | varchar2 | 6
 name | varchar2 | 20
-100206 | Bobby Frank | 30
+address1 | varchar2 | 30
+address2 | varchar2 | 30
+city | varchar2 | 15
+state | varchar2 | 15
+pincode | number | 6
+remarks | varchar2 | 60
+bal_due | number | 10,2
+  
+CREATE TABLE client_master (client_no varchar2(20), name varchar2(30), address1 varchar2(30), 
+  address2 varchar2(30), city varchar2(15), state varchar2(15), 
+  pincode number(6), remarks varchar2(60), bal_due number(10,2));
+```
         
 #### INSERTION OF DATA INTO TABLES
 
