@@ -20,6 +20,7 @@
 
 - [THE CREATE TABLE COMMAND](#the-create-table-command)
 - [INSERTION OF DATA INTO TABLES](#insertion-of-data-into-tables)
+- [SQL Specific Questions](#sql-specific-questions)
 
 ##### Working with the Oracle Engine
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
@@ -162,8 +163,7 @@ Synatx:
         INSERT INTO tablename(columnname, columnname) VALUES (expression, expression);
 ```
   
-**Example:** 
-***Insert the following values into the client_master table***:
+**Example:** ***Insert the following values into the client_master table***:
   
 Column Name | Values
 ------------ | -------------
@@ -181,7 +181,7 @@ INSERT INTO client_master
   VALUES('C02000', 'Abhinav Korpal', 'HSR Layout', 'Outer Ring', 'Bangalore', 'Karantaka', 560001);
 ```
 
-#### VIEWING DATA IN THE TABLES
+##### VIEWING DATA IN THE TABLES
 
 All Rows and All Column:
 
