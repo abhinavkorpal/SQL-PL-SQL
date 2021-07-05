@@ -12,6 +12,8 @@
   </p>
 </p>
 
+* [SQL used for](#sql-used-for)
+
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
 ## Working with the Oracle Engine
 
@@ -19,6 +21,7 @@
 ## Interaction between Oracle Clients - Oracle Engine and the server hard disk drive with data on it.
 
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_tool_oracle_engine.png)
+## Various Oracle tools connected to the oracle engine
 
 ## SQL
 
@@ -195,9 +198,7 @@ The Sum of all the purchases of cat food weren't readily available, so we used a
 the pseudo table to retrieve the sum of the prices spent by each customer, then join the table normally.
 </b></details>
 
-## Various Oracle tools connected to the oracle engine
-
-#### SQL used for
+##### SQL used for
 
 - SQL can create and maintain data manipulation objects such as tables, views, sequences etc.
 
@@ -205,7 +206,7 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
 
 - Once these data manipulation objects created, they are used extensively in commerical applications.
 
-#### DML, DCL, DDL
+##### DML, DCL, DDL
 
 - SQL sentences that are used to create these objects are called **DDL's** or **Data Definition Language.**
 
@@ -213,7 +214,7 @@ the pseudo table to retrieve the sum of the prices spent by each customer, then 
 
 - SQL sentences that are used to control the behavior of these objects are called **DCl's** or **Data Control Language.**
 
-#### THE CREATE TABLE COMMAND:
+##### THE CREATE TABLE COMMAND:
 
 ```sql
 Syntax:
