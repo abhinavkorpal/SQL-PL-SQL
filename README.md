@@ -13,9 +13,9 @@
 </p>
 
 * [Working with the Oracle Engine](#working-with-the-oracle-engine)
-* [SQL used for](#sql-used-for)
 * [Various Oracle tools connected to the oracle engine](#various_oracle_tools_connected_to_the_oracle_engine)
 * [SQL](#sql)
+* [SQL used for](#sql-used-for)
 
 ##### Working with the Oracle Engine
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
