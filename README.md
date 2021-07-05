@@ -13,9 +13,12 @@
 </p>
 
 * [Working with the Oracle Engine](#working-with-the-oracle-engine)
-* [Various Oracle tools connected to the oracle engine](#various_oracle_tools_connected_to_the_oracle_engine)
+* [Various Oracle tools connected to the oracle engine](#various-oracle-tools-connected-to-the-oracle-engine)
 * [SQL](#sql)
 * [SQL used for](#sql-used-for)
+* [DML DCL DDL](#dml-dcl-ddl)
+
+- [THE CREATE TABLE COMMAND](#the-create-table-command)
 
 ##### Working with the Oracle Engine
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
@@ -114,7 +117,7 @@ to be incorrect.
 
 - Once these data manipulation objects created, they are used extensively in commerical applications.
 
-##### DML, DCL, DDL
+##### DML DCL DDL
 
 - SQL sentences that are used to create these objects are called **DDL's** or **Data Definition Language.**
 
@@ -158,7 +161,8 @@ Synatx:
         INSERT INTO tablename(columnname, columnname) VALUES (expression, expression);
 ```
   
-**Example:** ***Insert the following values into the client_master table***:
+**Example:** 
+***Insert the following values into the client_master table***:
   
 Column Name | Values
 ------------ | -------------
