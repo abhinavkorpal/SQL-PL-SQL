@@ -248,6 +248,24 @@ CREATE TABLE client_master (client_no varchar2(20), name varchar2(30), address1 
 Synatx: 
         INSERT INTO tablename(columnname, columnname) VALUES (expression, expression);
 ```
+  
+**Example:** ***Insert the following values into the client_master table***:
+  
+Column Name | Values
+------------ | -------------
+client_no | C02000,
+name | Abhinav Korpal
+address1 | HSR Layout
+address2 | Outer Ring
+city | Bangalore
+state | Karantaka
+pincode | 560001
+
+```sql
+INSERT INTO client_master 
+  (client_no, name, address1, address2, city, state, pincode)
+  VALUES('C02000', 'Abhinav Korpal', 'HSR Layout', 'Outer Ring', 'Bangalore', 'Karantaka', 560001);
+```
 
 #### VIEWING DATA IN THE TABLES
 
