@@ -12,16 +12,17 @@
   </p>
 </p>
 
+* [Working with the Oracle Engine](working-with-the-oracle-engine)
 * [SQL used for](#sql-used-for)
 
-![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
 ## Working with the Oracle Engine
+![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
 
-![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_client_oracle_engine.png)
 ## Interaction between Oracle Clients - Oracle Engine and the server hard disk drive with data on it.
+![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_client_oracle_engine.png)
 
-![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_tool_oracle_engine.png)
 ## Various Oracle tools connected to the oracle engine
+![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_tool_oracle_engine.png)
 
 ## SQL
 
