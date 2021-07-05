@@ -19,6 +19,7 @@
 * [DML DCL DDL](#dml-dcl-ddl)
 
 - [THE CREATE TABLE COMMAND](#the-create-table-command)
+- [INSERTION OF DATA INTO TABLES](#insertion-of-data-into-tables)
 
 ##### Working with the Oracle Engine
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
@@ -154,7 +155,7 @@ CREATE TABLE client_master (client_no varchar2(20), name varchar2(30), address1 
   pincode number(6), remarks varchar2(60), bal_due number(10,2));
 ```
         
-#### INSERTION OF DATA INTO TABLES
+##### INSERTION OF DATA INTO TABLES
 
 ```sql
 Synatx: 
