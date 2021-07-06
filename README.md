@@ -21,6 +21,7 @@
 
 - [THE CREATE TABLE COMMAND](#the-create-table-command)
 - [INSERTION OF DATA INTO TABLES](#insertion-of-data-into-tables)
+- [VIEWING DATA IN THE TABLES](#viewing-data-in-the-tables)
 - [SQL Specific Questions](#sql-specific-questions)
 
 ##### Working with the Oracle Engine
@@ -128,7 +129,7 @@ to be incorrect.
 
 - SQL sentences that are used to control the behavior of these objects are called **DCl's** or **Data Control Language.**
 
-##### THE CREATE TABLE COMMAND:
+##### THE CREATE TABLE COMMAND
 
 ```sql
 Syntax:
@@ -182,7 +183,7 @@ INSERT INTO client_master
   VALUES('C02000', 'Abhinav Korpal', 'HSR Layout', 'Outer Ring', 'Bangalore', 'Karantaka', 560001);
 ```
 
-##### VIEWING DATA IN THE TABLES
+ ##### VIEWING DATA IN THE TABLES
 
 All Rows and All Column:
 
