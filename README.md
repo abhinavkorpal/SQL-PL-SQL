@@ -14,6 +14,7 @@
 
 * [Working with the Oracle Engine](#working-with-the-oracle-engine)
 * [Various Oracle tools connected to the oracle engine](#various-oracle-tools-connected-to-the-oracle-engine)
+* [Interaction between Oracle Clients and Oracle Engine and the server hard disk drive with data on it](#interaction-between-oracle-clients-and-oracle-engine-and-the-server-hard-disk-drive-with-data-on-it)
 * [SQL](#sql)
 * [SQL used for](#sql-used-for)
 * [DML DCL DDL](#dml-dcl-ddl)
@@ -25,7 +26,7 @@
 ##### Working with the Oracle Engine
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_engine.png)
 
-##### Interaction between Oracle Clients - Oracle Engine and the server hard disk drive with data on it.
+##### Interaction between Oracle Clients and Oracle Engine and the server hard disk drive with data on it.
 ![](https://github.com/abhinavkorpal/SQL-PL-SQL/blob/master/images/oracle_client_oracle_engine.png)
 
 ##### Various Oracle tools connected to the oracle engine
