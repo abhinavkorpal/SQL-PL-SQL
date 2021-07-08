@@ -197,6 +197,16 @@ I) Syntax:
 II) Syntax:
         SELECT * FROM tablename;
 ```
+Example:
+  
+1. Retrieve the names of the employees and their salaries from the table emp_master;
+```sql
+SELECT name, salary FROM tablename;
+```
+2. Retrieve all records from tabel client_master;
+```sql
+SELECT * FROM client_master;
+```
 
 #### FILTERING TABLE DATA:
 
