@@ -210,7 +210,7 @@ SELECT * FROM client_master;
 
 #### FILTERING TABLE DATA:
 
-way of filtering table data will be:
+The way of filtering table data will be
 - Selected columns and all rows
 - Selected rows and all columnns
 - Selected columns and Selected rows
