@@ -215,25 +215,30 @@ The way of filtering table data will be
 - Selected rows and all columnns
 - Selected columns and Selected rows
 
-Selected Columns and All Rows:
+##### Selected Columns and All Rows:
 
 ```sql
 Syntax: 
         SELECT columname, columname FROM tablename;
 ```
+  
+##### **Example:** ***Retrive the contents of the columns client_no and name from the table client_master***:
+  
+```sql
+  SELECT client_no, name FROM client_master;
+```
 
-Selected rows and all columnns:
+##### Selected rows and all columnns:
 
 ```sql
 Syntax: 
         SELECT * FROM tablename WHERE search condition;
 ```
-Selected Columns and Selected Rows:
+##### Selected Columns and Selected Rows:
 
 ```sql
 Syntax:
         SELECT columname, columnname FROM tablename WHERE search condition;
-        
 ```
 
 #### SQL Performance Tuning
