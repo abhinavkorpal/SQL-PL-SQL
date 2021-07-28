@@ -234,6 +234,13 @@ Syntax:
 Syntax: 
         SELECT * FROM tablename WHERE search condition;
 ```
+  
+##### **Example:** ***Retrive all client_information from table client_master the value in the bal_due field is greater than 0***:
+  
+```sql
+  SELECT * FROM client_master WHERE bal_due > 0;
+```
+
 ##### Selected Columns and Selected Rows:
 
 ```sql
